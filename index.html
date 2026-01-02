@@ -1,23 +1,75 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Mixar – Kryx</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mix & Production</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: #0c0c12;
+      color: #eaeaf0;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      opacity: 0.85;
+      line-height: 1.6;
+      max-width: 720px;
+    }
+
+    .player {
+      margin-top: 30px;
+      background: #141420;
+      border-radius: 16px;
+      padding: 16px;
+      border: 1px solid #2a2a44;
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  </style>
 </head>
 <body>
-  <h1>Mixar – Kryx</h1>
+  <div class="wrap">
+    <h1>Mix & Production</h1>
 
-  <!-- Här är ett exempel på en SoundCloud-embed -->
-  <iframe 
-    width="100%" height="166" scrolling="no" frameborder="no"
-    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/DITT_KONTO/DITT_MIX1&auto_play=false">
-  </iframe>
+    <p>
+      Utvalda mixar och produktioner.  
+      Kontakta mig gärna om du vill samarbeta eller höra mer.
+    </p>
 
-  <iframe 
-    width="100%" height="166" scrolling="no" frameborder="no"
-    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/DITT_KONTO/DITT_MIX2&auto_play=false">
-  </iframe>
+    <div class="player">
+      <iframe
+        src="https://w.soundcloud.com/player/?url=https://soundcloud.com/user-30308971&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true">
+      </iframe>
+    </div>
 
+    <footer>
+      © 2026
+    </footer>
+  </div>
 </body>
 </html>
